@@ -16,7 +16,7 @@ jobs:
 
       - uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: ${{ github.event.repository.name }}
+          image: gt2
           registry: ghcr.io
           username: punsano26
           password: ${{ secrets.GITHUB_TOKEN }}
